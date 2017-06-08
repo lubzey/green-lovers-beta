@@ -1,56 +1,36 @@
-.md-toolbar {
+.menu {
     position: fixed;
     top: 0;
-box-shadow: 0 3px 4px 0 rgba(0,0,0,0.14),
-            0 3px 3px -2px rgba(0,0,0,0.12),
-            0 1px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,0.2);
+    width: 100%;
+    background-color: white;
 }
-
 nav {
-display: inline-flex;
-flex: 1 1 auto;
-align-items: center;
-color: white;
-margin: 5px;
-text-decoration: none;
+    display: inline-flex;
+    flex: 1 1 auto;
+    align-items: center;
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+    
+    margin-right: 10%;
 }
-
-app-search {
-display: inline-flex;
-flex: 1 1 auto;
-}
-
-/*#logo {
-text-decoration: none;
-align-items: center;
-line-height: 20px;
-margin-right: 10px;
-}*/
 #logo {
-    margin-top: 5px;
-    margin-right: 10px;
+    margin-left: 10%;
 }
-
-#logo img {
+#logo img {    
+    margin-top: 5px;
     background-color: white;
     padding: 5px;
     border-radius: 3px;
 }
-
-#logo img {
-height: 30px;
-width: 30px;
-vertical-align: middle;
-position: relative;
-line-height: 20px;
-}
 nav a {
-    color: white;
+    color: #95CA3E;
     margin: 5px;
     text-decoration: none;
 }
 nav a:hover {
-    color: greenyellow;
+    color: #66B2F9;
     text-decoration: underline;
 }
 .profileImage{
@@ -63,4 +43,7 @@ nav a:hover {
 }
 .active {
     color: darkgreen !important;
+}
+.active:hover {
+    color: #66B2F9 !important;
 }

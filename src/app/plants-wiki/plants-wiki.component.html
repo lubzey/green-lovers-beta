@@ -1,9 +1,9 @@
 <div>Plants</div>
 
-<div class="grid">
-  <div class="grid-cell">
-    <div *ngFor="let plantInstance of plantInstances">
-      <h3      >
+<div class="">
+  <div class="">
+    <div *ngFor="let plantInstance of plantInstances" class="card">
+      <h3>
         {{ plantInstance.commonName }}
       </h3>
       <h4>
@@ -12,7 +12,7 @@
       <h4>
         Owner: {{ plantInstance.owner }}
       </h4>
-      <img md-card-image src="http://lohitsascience.weebly.com/uploads/2/2/6/0/22607136/622994_orig.jpg">
+      <img class="" src="http://lohitsascience.weebly.com/uploads/2/2/6/0/22607136/622994_orig.jpg">
       <button md-raised-button>View details</button>
     </div>
   </div>
