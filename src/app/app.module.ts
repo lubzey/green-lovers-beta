@@ -20,7 +20,6 @@ import { UsersService } from './shared/services/users.service';
 import { PlantInstancesService } from './shared/services/plant-instances.service';
 import { AuthenticationService } from './shared/services/authentication.service';
 
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AngularFireModule } from "angularfire2";
 import { AngularFireDatabaseModule } from "angularfire2/database";
 import { AngularFireAuthModule } from "angularfire2/auth";
@@ -47,8 +46,7 @@ import { firebaseConfig } from "../environments/firebase.config";
     HttpModule,
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule,
-    AngularFireAuthModule,
-    NgbModule.forRoot()
+    AngularFireAuthModule
   ],
   providers: [PlantInstancesService, UsersService, AuthenticationService],
   bootstrap: [AppComponent]
