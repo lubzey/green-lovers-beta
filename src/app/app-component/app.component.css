@@ -1,14 +1,11 @@
 app-header {
     z-index: 2;
     position: fixed;
+    
+    border-bottom: 5px;
+    border-color: #66B2F9;
 }
-
-app-side-menu {
-    position: relative;
-    top: 70px;
-}
-
 .container {
-    padding-left: 10%;
     width: 80%;
+    margin-top: 65px;
 }

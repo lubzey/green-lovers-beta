@@ -9,11 +9,11 @@ import { PlantInstance } from '../shared/models/plant-instance.model';
 import { User } from '../shared/models/user.model';
 
 @Component({
-  selector: 'app-dashboard',
-  templateUrl: 'dashboard.component.html',
-  styleUrls: ['dashboard.component.css']
+  selector: 'app-home',
+  templateUrl: 'home.component.html',
+  styleUrls: ['home.component.css']
 })
-export class DashboardComponent implements OnInit {
+export class HomeComponent implements OnInit {
 
   plantInstances: Observable<PlantInstance[]>;
   filteredPlantInstances: Observable<PlantInstance[]>;

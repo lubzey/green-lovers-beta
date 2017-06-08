@@ -1,0 +1,25 @@
+<div class="h2">Plants</div>
+
+<div *ngFor="let plantInstance of plantInstances" class="card col-md-3">
+  <div class="card-block">
+    <div class="row">
+      <div class="col-md-6">
+        <h3 class="card-title">
+          {{ plantInstance.commonName }}
+        </h3>
+        <h5 class="">
+          Owner: {{ plantInstance.owner }}
+        </h5>
+      </div>
+
+      <div class="col-md-6">
+        <button class="btn btn-info">View details</button>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <img class="" src="http://lohitsascience.weebly.com/uploads/2/2/6/0/22607136/622994_orig.jpg">
+</div>

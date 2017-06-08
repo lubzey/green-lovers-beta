@@ -6,9 +6,9 @@ import { PlantInstance } from '../shared/models/plant-instance.model';
 
 
 @Component({
-  selector: 'app-plants-wiki',
-  templateUrl: 'plants-wiki.component.html',
-  styleUrls: ['plants-wiki.component.css']
+  selector: 'app-plants',
+  templateUrl: 'plants.component.html',
+  styleUrls: ['plants.component.css']
 })
 export class PlantsWikiComponent implements OnInit {
   plantInstances: PlantInstance[];
@@ -24,7 +24,6 @@ export class PlantsWikiComponent implements OnInit {
     this.plantInstancesService.getPlants().subscribe(plantInstances => {
       this.plantInstances = plantInstances;
       console.log(this.plantInstances);
-    });
-    
+    });    
   }
 }
