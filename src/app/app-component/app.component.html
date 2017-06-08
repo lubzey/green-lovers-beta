@@ -1,0 +1,7 @@
+<app-header (sideMenuEvent)="sideMenu.toggle()"></app-header>
+<app-side-menu #sideMenu>
+    <div class="container">
+    <router-outlet></router-outlet>
+    </div>
+</app-side-menu>
+<app-footer></app-footer>

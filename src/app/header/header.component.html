@@ -1,0 +1,18 @@
+<div class="md-toolbar" color="primary">
+    <nav>
+        <span (click)="callToSideMenu()"><i id="menu-button" class="material-icons">menu</i></span>
+        <a id="logo" routerLink="/home">
+            <img src="assets/images/logo200.png" alt="logo">
+        </a>
+        <app-search></app-search>
+        <a routerLink="/home" routerLinkActive="active">Users</a>
+        <a routerLink="/plants" routerLinkActive="active">Plants</a>
+        <a routerLink="/user/garden" routerLinkActive="active" *ngIf="displayName">Garden</a>
+        <a routerLink="/user/profile" routerLinkActive="active" *ngIf="displayName">Profile</a>
+
+        <img class="profileImage" *ngIf="displayName" src='{{ photoURL }}'>
+
+        <button *ngIf="!displayName" (click)="login()">Login</button>
+        <button *ngIf="displayName" (click)="logout()">Logout</button>
+    </nav>
+</div>

@@ -1,0 +1,9 @@
+<div class="container">
+  <div #start (toggle)="start.toggle()">
+  <li *ngFor="let option of menuOptions">
+    <a href="">{{option}}</a>
+    </li>
+  </div>
+  <ng-content></ng-content>
+
+</div>

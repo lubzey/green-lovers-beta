@@ -1,0 +1,12 @@
+<div dividerColor="accent">
+    <input type="text" md-input placeholder="Search Anything"
+    id="search-box"
+    #searchBox
+    (keyup)="search(searchBox.value)">
+</div>
+<div *ngFor="let result of userResults  | async " class="search-result">
+    {{result.firstName}}
+</div>
+<div *ngFor="let result of plantResults | async " class="search-result">
+    {{result.commonName}}
+</div>

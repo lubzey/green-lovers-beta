@@ -1,0 +1,8 @@
+
+.search-result{
+  width:195px;
+  height: 20px;
+  padding: 5px;
+  background-color: white;
+  cursor: pointer;
+}

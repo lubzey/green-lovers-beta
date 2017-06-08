@@ -1,0 +1,26 @@
+[
+    {
+        "firstName": "Gosho",
+        "lastName": "Ivanov",
+        "birthDate": "01.09.2014",
+        "avatar": "https://goo.gl/wg6JLI",
+        "photos": [],
+        "garden": []
+    },
+    {
+        "firstName": "Petkan",
+        "lastName": "Draganov",
+        "birthDate": "01.09.2014",
+        "avatar": "https://goo.gl/wg6JLI",
+        "photos": [],
+        "garden": []
+    },
+    {
+        "firstName": "Izdislav",
+        "lastName": "Storaro",
+        "birthDate": "01.09.2014",
+        "avatar": "https://goo.gl/wg6JLI",
+        "photos": [],
+        "garden": []
+    }
+]
